@@ -1,0 +1,247 @@
+/* Custom styles for El-care website */
+
+/* Body styles */
+
+/* Center-align all content */
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Additional styles for the content */
+.container {
+    max-width: 1200px; /* Adjust max-width as needed */
+    width: 100%;
+    padding: 0 20px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section styles */
+section {
+    margin-top: 50px;
+}
+
+/* Card styles */
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Card image styles */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+}
+
+/* Card content styles */
+.card-content {
+    padding: 20px;
+}
+
+.card-content h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Hover animation styles */
+.card:hover .card-content h4 {
+    color: #ff4500; /* Change color on hover */
+}
+
+.card:hover .card-content p {
+    color: #999; /* Change color on hover */
+}
+/* Global styles */
+body,
+html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.w-full {
+    width: 100%;
+}
+
+.max-w-7xl {
+    max-width: 80rem; /* Adjust max-width as needed */
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header styles */
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.lg\:pr-8 {
+    padding-right: 2rem; /* Adjust padding as needed */
+}
+
+/* Navigation styles */
+.nav-link {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Adjust hover color */
+}
+
+/* Button styles */
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #007bff; /* Adjust hover background color */
+    color: #fff; /* Adjust text color on hover */
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header container */
+.w-full {
+    width: 100%;
+}
+
+.max-w-7xl {
+    max-width: 80rem; /* Adjust max-width as needed */
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header styles */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.lg\:pr-8 {
+    padding-right: 2rem; /* Adjust padding as needed */
+}
+
+/* Navigation styles */
+.nav-link {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Adjust hover color */
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 0.875rem;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #007bff;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
